@@ -55,12 +55,12 @@ export function Navigation() {
             <Link href="/login">
               <Button
                 variant="outline"
-                className="border-gray-300 text-gray-700 hover:bg-gray-50 px-4 py-2 text-sm font-medium bg-transparent"
+                className="border-gray-300 text-gray-700 hover:bg-gray-50 hover:text-gray-900 px-4 py-2 text-sm font-medium bg-transparent"
               >
                 Login
               </Button>
             </Link>
-            <Link href="/dashboard">
+            <Link href="/get-started">
               <Button className="bg-blue-900 hover:bg-blue-800 text-white px-4 py-2 text-sm font-medium">
                 Get Started
               </Button>
@@ -101,7 +101,7 @@ export function Navigation() {
                     Login
                   </Button>
                 </Link>
-                <Link href="/dashboard">
+                <Link href="/get-started">
                   <Button className="w-full bg-blue-900 hover:bg-blue-800 text-white">Get Started</Button>
                 </Link>
               </div>
